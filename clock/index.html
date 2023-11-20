@@ -47,7 +47,7 @@
   --color-shadow: #00000030;
   --clock-hand-width: calc(0.05 * var(--clock-size));
   --clock-hand-second-color: #ee2222;
-  background-color: inherit;
+/*  background-color: inherit;*/
   display: block;
   position: absolute; /* Size won't relative to body size */
   width: var(--clock-size);
@@ -89,12 +89,12 @@ body{
   box-sizing: border-box;
   border: calc(0.25 * var(--clock-hand-width)) solid var(--clock-hand-second-color);
   border-radius: 50%;
-  background-color: inherit;
+/*  background-color: inherit;*/
 }
 
 /* Clock nums */
 .wall-clock-nums {
-  position: relative;
+  position: relativ e;
   width: 100%;
   height: 100%;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -214,16 +214,16 @@ body{
 }
 
 body{
-  --bg-color: #eee;
+  /* --bg-color: ; */
   --text-color: #222;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   color: var(--text-color);
 }
-.darkMode-toggler {
+/*.darkMode-toggler {
   position: fixed;
   top: 10px;
   right: 10px;
-}
+}*/
 
 /* Theme mode */
 body[dark]{
